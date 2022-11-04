@@ -1,0 +1,230 @@
+C:\Users\hp
+λ cd
+C:\Users\hp
+
+C:\Users\hp
+λ d:
+
+D:\
+λ cd Web Development\Projects\New folder
+
+D:\Web Development\Projects\New folder
+λ git clone https://github.com/christopher4lis/canvas-boilerplate.git
+Cloning into 'canvas-boilerplate'...
+remote: Enumerating objects: 244, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 244 (delta 0), reused 2 (delta 0), pack-reused 241
+Receiving objects: 100% (244/244), 620.11 KiB | 1.07 MiB/s, done.
+Resolving deltas: 100% (116/116), done.
+
+D:\Web Development\Projects\New folder
+λ cd mario-game-server
+
+D:\Web Development\Projects\New folder\mario-game-server(master -> origin) (canvas-template@1.0.0)
+λ npm install
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated mkdirp@0.5.4: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated html-webpack-plugin@4.0.3: please switch to a stable version
+npm WARN deprecated axios@0.19.0: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+
+added 779 packages, and audited 780 packages in 1m
+
+25 packages are looking for funding
+  run `npm fund` for details
+
+31 vulnerabilities (4 moderate, 23 high, 4 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+D:\Web Development\Projects\New folder\mario-game-server(master -> origin) (canvas-template@1.0.0)
+λ npm start
+
+> canvas-template@1.0.0 start
+> webpack --config webpack.config.js
+
+
+webpack is watching the files…
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:140:10)
+    at module.exports (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\util\createHash.js:135:53)
+    at NormalModule._initBuildHash (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:417:16)
+    at handleParseError (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:471:10)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:503:5
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:358:12
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:373:3
+    at iterateNormalLoaders (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:214:10)
+    at iterateNormalLoaders (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:221:10)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:236:3
+    at runSyncOrAsync (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:130:11)
+    at iterateNormalLoaders (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:232:2)
+    at Array.<anonymous> (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:205:4)
+    at Storage.finished (D:\Web Development\Projects\New folder\mario-game-server\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:55:16)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:91:9
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\graceful-fs\graceful-fs.js:115:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read_file_context:68:3)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+node:internal/crypto/hash:71
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:140:10)
+    at module.exports (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\util\createHash.js:135:53)
+    at NormalModule._initBuildHash (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:417:16)
+    at handleParseError (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:471:10)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:503:5
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:358:12
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:373:3
+    at iterateNormalLoaders (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:214:10)
+    at iterateNormalLoaders (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:221:10)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:236:3
+    at context.callback (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:111:13)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\babel-loader\lib\index.js:59:71
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v19.0.0
+
+D:\Web Development\Projects\New folder\mario-game-server(master -> origin) (canvas-template@1.0.0)
+λ npx browserslist@latest --update-db
+Latest version:     1.0.30001426
+Installed version:  1.0.30001228
+Removing old caniuse-lite from lock file
+Installing new caniuse-lite version
+$ npm install caniuse-lite
+Cleaning package.json dependencies from caniuse-lite
+$ npm uninstall caniuse-lite
+caniuse-lite has been successfully updated
+
+No target browser changes
+
+D:\Web Development\Projects\New folder\mario-game-server(master -> origin) (canvas-template@1.0.0)
+λ npm start
+
+> canvas-template@1.0.0 start
+> webpack --config webpack.config.js
+
+
+webpack is watching the files…
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:140:10)
+    at module.exports (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\util\createHash.js:135:53)
+    at NormalModule._initBuildHash (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:417:16)
+    at handleParseError (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:471:10)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:503:5
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:358:12
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:373:3
+    at iterateNormalLoaders (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:214:10)
+    at iterateNormalLoaders (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:221:10)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:236:3
+    at runSyncOrAsync (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:130:11)
+    at iterateNormalLoaders (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:232:2)
+    at Array.<anonymous> (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:205:4)
+    at Storage.finished (D:\Web Development\Projects\New folder\mario-game-server\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:55:16)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:91:9
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\graceful-fs\graceful-fs.js:115:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read_file_context:68:3)
+node:internal/crypto/hash:71
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:140:10)
+    at module.exports (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\util\createHash.js:135:53)
+    at NormalModule._initBuildHash (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:417:16)
+    at handleParseError (D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:471:10)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:503:5
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\webpack\lib\NormalModule.js:358:12
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:373:3
+    at iterateNormalLoaders (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:214:10)
+    at iterateNormalLoaders (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:221:10)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:236:3
+    at context.callback (D:\Web Development\Projects\New folder\mario-game-server\node_modules\loader-runner\lib\LoaderRunner.js:111:13)
+    at D:\Web Development\Projects\New folder\mario-game-server\node_modules\babel-loader\lib\index.js:59:71 {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v19.0.0
+
+D:\Web Development\Projects\New folder\mario-game-server(master -> origin) (canvas-template@1.0.0)
+λ set NODE_OPTIONS=--openssl-legacy-provider
+
+D:\Web Development\Projects\New folder\mario-game-server(master -> origin) (canvas-template@1.0.0)
+λ npm start
+
+> canvas-template@1.0.0 start
+> webpack --config webpack.config.js
+
+
+webpack is watching the files…
+
+Hash: 6b11b84c9749df7dc55e
+Version: webpack 4.42.1
+Time: 1152ms
+Built at: 10/28/2022 12:33:33 AM
+                               Asset       Size  Chunks                         Chunk Names
+               ./js/canvas.bundle.js   9.18 KiB    main  [emitted]              main
+           ./js/canvas.bundle.js.map   12.6 KiB    main  [emitted] [dev]        main
+                         favicon.ico   1.58 KiB          [emitted]
+ffab39d3487de561be1a081fcfb3806d.png   11.1 KiB          [emitted] [immutable]
+                          index.html  354 bytes          [emitted]
+Entrypoint main = ./js/canvas.bundle.js ./js/canvas.bundle.js.map
+[./src/img/platform.png] 80 bytes {main} [built]
+[./src/js/canvas.js] 4.74 KiB {main} [built]
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 563 bytes {HtmlWebpackPlugin_0} [built]
+[Browsersync] Access URLs:
+ -------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.1.14:3000
+ -------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ -------------------------------------
+[Browsersync] Serving files from: dist
+[Browsersync] Watching files...
+Hash: b8bf5f3a27f5d4a1eeb7
+Version: webpack 4.42.1
+Time: 116ms
+Built at: 10/28/2022 12:45:34 AM
+      Asset       Size  Chunks             Chunk Names
+favicon.ico   1.58 KiB          [emitted]
+ index.html  330 bytes          [emitted]
+ + 3 hidden assets
+Entrypoint main = ./js/canvas.bundle.js ./js/canvas.bundle.js.map
+   2 modules
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 539 bytes {HtmlWebpackPlugin_0} [built]
+[Browsersync] Reloading Browsers... (buffered 2 events)
+[Browsersync] Reloading Browsers...
